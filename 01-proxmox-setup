@@ -1,0 +1,6 @@
+cd HomeLab-Infrastructure
+mkdir -p docs
+mv ~/Downloads/01-proxmox-setup.md docs/
+git add docs/01-proxmox-setup.md
+git commit -m "docs: add Proxmox setup write-up"
+git push
